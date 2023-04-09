@@ -1,0 +1,223 @@
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  
+  --background-color: hsla(42, 93%, 56%, 0.654);
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  min-height: 100vh;
+  padding: 2rem;
+
+  color: hsla(0, 0%, 0%, .6);
+  background: var(--background-color);
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 4.7rem;
+  padding-top: 2rem;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+h2 {
+  font-size: 6.5rem;
+  padding-top: 2rem;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+h1+p {
+  font-size: 1.8rem;
+  padding: 2rem 0 3rem;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+}
+
+a {
+  font-size: 6rem;
+}
+
+
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.immaginetazza {
+  position: relative;top: -300px; left: -550px;
+  
+}
+  
+.primaparte{
+  position: relative;top: 100px; left: 1px;
+ text-align: right
+} 
+  
+.secondaparte{
+  position: relative;top: -900px; left: -50px;
+ text-align: right 
+}
+  
+.testoiniziale{
+  position:relative;top: 40px;
+  color:black;
+}
+
+.testoinizialesotto{
+  position:relative;top: -90px;
+  color:white;
+}
+
+.sotto{
+  position:relative;top: -25px;
+  color:white
+}
+
+.freccia{
+ position:relative;top: -80px;
+}
+
+.dolceosalato{
+  position:relative;top: 80px; left: -820px;
+  color:white;
+}
+
+.sottodolceosalato{
+  position:relative;top: 80px; left: -135px; 
+}
+
+.tredue{
+  position:relative;top: 100px;right:0px; left: -805px; 
+  color:red;
+}
+
+.otto{
+  position:relative;top: -13px; left: -180px;  
+  color:green; 
+}
+
+.fannouna{
+  position:relative;top:-50px; left:-855px;
+}
+
+.colazionesalata{
+  position:relative;top:-80px; left:-775px;
+}
+
+.fannuna{
+  position:relative;top:-177px; left:-201px;  
+}
+
+.colazionedolce{
+  position:relative;top:-205px; left:-129px;  
+}
+
+.imagerossa{
+  position:relative;top:-205px; left:-485px;  
+}
+
+.imageverde{
+  position:relative;top:-205px; left:-100px;  
+}
+
+.colaziones{
+ position:relative;top:-1055px; left:-350px; 
+ color:red;   
+}
+
+.galleria {
+  display: flex;
+  height: 25rem;
+  width: 120rem;
+  gap: 5rem;
+  position:relative;top:40px;left:500px;
+}
+
+.galleria > div {
+  flex: 1;
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  transition: all 0.8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+}
+
+.galleria > div:hover {
+  flex: 5;
+}
+
+.colazioned{
+  position:relative;top:-935px; left:-350px;  
+  color:green;
+}
+
+
+.galleriad {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 25rem;
+  width: 120rem;
+  gap: 5rem;
+  position:absolute;top:2200px;left:185px;
+}
+
+.galleriad > div {
+  flex: 1;
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  transition: all 0.8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+}
+
+.galleriad > div:hover {
+  flex: 5;
+}
+
+.quindi{
+  position:relative;top:-450px; left:-100px; 
+  color:white;  
+}
+
+.o{
+  position:relative;top:-370px; left:-280px; 
+  color:white;
+}
+
+.limportante{
+  position:relative;top:-350px; left:-200px; 
+  color:black;
+}
+
+.pasto{
+  position:relative;top:-415px; left:120px; 
+  color:white;
+}
+
+.importante{
+  position:relative;top:-355px; left:-430px;
+  color:white; 
+}
+
+.giorn{
+  position:relative;top:-300px; left:-930px; 
+  color:white;
+}
+
+.tazzina{
+ position:absolute;top:2600px; left: 919px;
+}
